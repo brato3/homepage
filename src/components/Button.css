@@ -39,5 +39,5 @@
     transition: all 0.3s ease-out;
     background: #E4DADB;
     color: #d2a6aa;
-    transition: 250ms;
+    transition: all 0.3s ease-out;
   }

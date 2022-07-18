@@ -1,15 +1,17 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './homepageSection';
+import './HomeSection.css';
 
-function homepageSection() {
+function HomepageSection() {
   return (
     <div className='homepage-container'>
       <h1>Welcome to E-va</h1>
-      <p>E-va wants to make sure that you 
+      <div className='homepage-explanaition'>
+        <p className='p1'>E-va wants to make sure that you 
       understand even more about your own body 
       and don't lose track of it.</p>
+      </div>
       <div className='homepage-btns'>
         <Button
           className='btns'
@@ -23,4 +25,5 @@ function homepageSection() {
   );
 }
 
-export default homepageSection;
+
+export default HomepageSection;

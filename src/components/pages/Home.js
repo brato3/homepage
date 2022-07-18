@@ -1,11 +1,12 @@
-import react from 'react';
 import '../../App.css';
-import homepageSection from '../homepageSection';
+import HomeSection from '../HomeSection';
+import Cards from '../Cards';
 
 function Home (){
     return (
         <>
-        <Home />
+        <HomeSection />
+        <Cards />
         </>
     );
 
